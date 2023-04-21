@@ -40,35 +40,36 @@ body {
 }
 
 main {
-    max-width: 280px;
+    max-width: 270px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 14px;
 }
 
 main img {
-    width: 90%;
-    margin-top: 12px;
+    width: 100%;
     border-radius: 10px;
 }
 
 .texto {
     text-align: center;
-    margin: 17px;
-    padding: 10px;
+    padding: 12px;
 }
 
 .frase1 {
     font-weight: 700;
     font-size: 17px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 12px;
 }
 
 .frase2 {
-    margin-top: 15px;
     color: hsl(220, 15%, 55%);
     font-size: 13px;
+    margin-bottom: 10px;
 }
